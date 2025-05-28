@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+/* 共通部分 */
+html {
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-color:rgba(0, 0, 0, 0.7);
+    background-image: url(background_image.jpg);
+    background-position: center;
+    color: #ffffff;
+    line-height: 1.9;
+    padding-bottom: 200px;
+    padding-top: 200px;
+}
+a {
+    text-decoration: none;
+}
+body {
+    margin: 0 auto;
+    max-width: 600px;
+}
+img {
+    max-width: 100%;
+}
+li {
+    list-style: none;
+}
+
+/* サブタイトル */
+.subtitle {
+    font-family: "DotGothic16", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    text-align: center;
+}
+.subtitle .colored {
+    color: #fd1eb1;
+}
+
+/* ロゴ画像 */
+.logo {
+    display: flex;
+    margin: auto;
+    width: 600px;
+}
+
+/* 動画 */
+.movie-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.movie {
+    max-width: 85%;
+}
+
+/* 説明文 */
+.description {
+    font-family: "DotGothic16", sans-serif;
+    font-style: normal;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    text-align: center;
+}
+.description .colored {
+    color: #fd1eb1;
+}
+.headline {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.sentence {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.line {
+    border-bottom: solid 3px #ffffff;
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+.img {
+    margin-bottom: 20px;
+}
