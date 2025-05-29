@@ -23,7 +23,7 @@ li {
 
 /* 背景画像 */
 .background {
-    background-attachment: schroll;
+    background-attachment: fixed;
     background-blend-mode: darken;
     background-color: rgba(0,0,0,0.5);
     background-image: url(background_image.jpg);
