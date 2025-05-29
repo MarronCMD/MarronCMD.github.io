@@ -2,12 +2,6 @@
 
 /* 共通部分 */
 html {
-    background-attachment: fixed;
-    background-blend-mode: darken;
-    background-color: rgba(0, 0, 0, 0.7);
-    background-image: url(background_image.jpg);
-    background-position: center;
-    background-size: cover;
     color: #ffffff;
     line-height: 1.9;
     padding-bottom: 200px;
@@ -25,6 +19,16 @@ img {
 }
 li {
     list-style: none;
+}
+
+/* 背景画像 */
+.background {
+    background-attachment: fied;
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,0.5);
+    background-image: url(background_image.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 /* サブタイトル */
