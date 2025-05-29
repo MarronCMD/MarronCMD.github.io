@@ -2,11 +2,10 @@
 
 /* 共通部分 */
 html {
-    background-attachment: local;
+    background-attachment: fixed;
     background-blend-mode: darken;
     background-color:rgba(0, 0, 0, 0.7);
     background-image: url(background_image.jpg);
-    background-position: center;
     background-size: contain;
     color: #ffffff;
     line-height: 1.9;
