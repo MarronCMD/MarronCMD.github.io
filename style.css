@@ -2,6 +2,11 @@
 
 /* 共通部分 */
 html {
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,0.5);
+    background-image: url(background_image.jpg);
+    background-size: cover;
     color: #ffffff;
     line-height: 1.9;
 }
@@ -21,11 +26,6 @@ li {
 
 /* 背景画像 */
 .background {
-    background-attachment: fixed;
-    background-blend-mode: darken;
-    background-color: rgba(0,0,0,0.5);
-    background-image: url(background_image.jpg);
-    background-size: cover;
     height: 100vh;
 }
 
