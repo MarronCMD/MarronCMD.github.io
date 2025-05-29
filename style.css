@@ -29,6 +29,7 @@ li {
     background-image: url(background_image.jpg);
     background-size: cover;
     height: 100vh;
+    position: fixed;
 }
 
 /* サブタイトル */
