@@ -6,6 +6,7 @@ html {
     background-blend-mode: darken;
     background-color: rgba(0,0,0,0.5);
     background-image: url(background_image.png);
+    background-position: center;
     background-size: cover;
     color: #ffffff;
     line-height: 1.9;
